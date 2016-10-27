@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>scoreboard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header" class="score_cards">
+			<h1 id="score_title"><a href="#">Scoreboard</a></h1>
+			
+				<ul class="backbutton">
+					<li><a href="main_menu.html" class="button special icon fa-download">Main Menu</a></li>
+				</ul>
+
+			    <div class="box" id="alter_score">  
+				    
+				    <div id="profile1">
+
+
+				    	<form id="player_name1">
+					    	 <input type="text" name="Name" placeholder="Player 1">
+					    </form>
+
+					    <!--menu1-->
+				    	
+				    	<img id="proimg1" src="images/character1-01.png">
+
+				    	<select id="charmenu" onchange="document.getElementById('proimg1').src = this.value">
+						    <option value="images/character1-01.png">King</option>
+						    <option value="images/character2-01.png">Emperor</option>
+						    <option value="images/character3-01.png">Barbarian</option>
+						    <option value="images/character4-01.png">Queen</option>
+						    <option value="images/d-character1-01.png">Dark King</option>
+						    <option value="images/d-character2-01.png">Dark Wizard</option>
+						    <option value="images/d-character3-01.png">King of the Dam</option>
+						    <option value="images/d-character4-01.png">Wicked Queen</option>
+						</select>
+				    	
+						
+					</div> 
+
+					<!--counter1-->
+
+			        <label for="qty"><abbr title="Quantity">Score</abbr></label>
+			        <input id="qty" value="0";/>
+			        <button id="down" onclick="modify_qty(-1)">-1</button>
+			        <button id="down" onclick="modify_qty(-5)">-5</button>
+			        <button id="up" onclick="modify_qty(1)">+1</button>
+			        <button id="up" onclick="modify_qty(5)">+5</button>
+			    </div>
+				
+				
+
+			    <div class="box" id="alter_score">  
+			    	
+			    	<div id="profile2">
+
+
+			    		<form id="player_name2">
+					    	 <input type="text" name="Name" placeholder="Player 2"> 
+					    </form>
+
+						<!--menu2-->
+						<img id="proimg2" <img src="images/character1-01.png">
+						<select id="charmenu" onchange="document.getElementById('proimg2').src = this.value">
+						    <option value="images/character1-01.png">King</option>
+						    <option value="images/character2-01.png">Emperor</option>
+						    <option value="images/character3-01.png">Barbarian</option>
+						    <option value="images/character4-01.png">Queen</option>
+						    <option value="images/d-character1-01.png">Dark King</option>
+						    <option value="images/d-character2-01.png">Dark Wizard</option>
+						    <option value="images/d-character3-01.png">King of the Dam</option>
+						    <option value="images/d-character4-01.png">Wicked Queen</option>
+						</select>
+				    	 
+					
+					</div> 
+
+					<!--counter2-->
+					 
+					<label for="qty2"><abbr title="Quantity">Score</abbr></label>
+			        <input id="qty2" value="0"/>
+			        <button id="down" onclick="modify_qty2(-1)">-1</button>
+			        <button id="down" onclick="modify_qty2(-5)">-5</button>
+			        <button id="up" onclick="modify_qty2(1)">+1</button>
+			        <button id="up" onclick="modify_qty2(5)">+5</button>
+			       	
+			    </div>
+	
+			</header>
+			
+			<div class="spaceblock">	
+			</div>
+
+		
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					Dojon: Rising Towers Board Game 2016
+				</ul>
+				<p class="copyright">&copy; Untitled. Credits: <a href="http://html5up.net">HTML5 UP</a></p>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
