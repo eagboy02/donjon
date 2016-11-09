@@ -18,62 +18,68 @@
 			
 			<header id="header">
 			
-			<nav class="sidemenu">
-				<a href="gallery.html">characters</a><br><br>
-				<a href="buildings.html">Buildings</a><br><br>
-				<a href="traps.html">Traps</a><br><br>
-				<a href="alter_tiles.html">Alters</a><br><br><br><br>
-				<a href="main_menu.html">Main Menu</a><br><br>
-				
+			<div id="mySidenav" class="sidenav">
+					  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					  <a href="gallery.html">Characters</a>
+					  <a href="buildings.html">Buildings</a>
+					  <a href="traps.html">Traps</a>
+					  <a href="alter_tiles.html">Alters</a>
+					  <a href="main_menu.html">Main Menu</a>
+					</div>
 
-			</nav>
+
+					<!-- Use any element to open the sidenav -->
+					<span onclick="openNav()">open</span>
+
+					<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+					<div id="main">
 			
-				<div class="content" id="alter_gallery">
-					<h1><a href="#">Light Characters</a></h1>
-					<ul id="portfolio" class="clearfix">
-						<a class="lightbox" href="1.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/character1-01.png" height="225" width="225">
-						</a>
-						<a class="lightbox" href="2.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/character2-01.png" height="250" width="248">
-						</a>
-						<a class="lightbox" href="3.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/character3-01.png" height="256" width="254">
-						</a>
-						<a class="lightbox" href="4.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/character4-01.png" height="250" width="246">
-						</a>
-						
-						<h1><a href="#">Dark Characters</a></h1>
+						<div class="content" id="alter_gallery">
+							<h1><a href="#">Light Characters</a></h1>
+							<ul id="portfolio" class="clearfix">
+								<a class="lightbox" href="1.jpg"
+								   data-littlelightbox-group="gallery">
+								   <img src="images/character1-01.png" height="225" width="225">
+								</a>
+								<a class="lightbox" href="2.jpg"
+								   data-littlelightbox-group="gallery">
+								   <img src="images/character2-01.png" height="250" width="248">
+								</a>
+								<a class="lightbox" href="3.jpg"
+								   data-littlelightbox-group="gallery">
+								   <img src="images/character3-01.png" height="256" width="254">
+								</a>
+								<a class="lightbox" href="4.jpg"
+								   data-littlelightbox-group="gallery">
+								   <img src="images/character4-01.png" height="250" width="246">
+								</a>
+								
+								<h1><a href="#">Dark Characters</a></h1>
 
-						<a class="lightbox" href="5.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/d-character1-01.png" height="244" width="248">
-						</a>
-						<a class="lightbox" href="6.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/d-character2-01.png" height="252" width="254">
-						</a>
-						<a class="lightbox" href="7.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/d-character3-01.png" height="250" width="246">
-						</a>
-						<a class="lightbox" href="8.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/d-character4-01.png" height="246" width="242">
-						</a>
+								<a class="lightbox" href="5.jpg"
+								   data-littlelightbox-group="gallery">
+								   <img src="images/d-character1-01.png" height="244" width="248">
+								</a>
+								<a class="lightbox" href="6.jpg"
+								   data-littlelightbox-group="gallery">
+								   <img src="images/d-character2-01.png" height="252" width="254">
+								</a>
+								<a class="lightbox" href="7.jpg"
+								   data-littlelightbox-group="gallery">
+								   <img src="images/d-character3-01.png" height="250" width="246">
+								</a>
+								<a class="lightbox" href="8.jpg"
+								   data-littlelightbox-group="gallery">
+								   <img src="images/d-character4-01.png" height="246" width="242">
+								</a>
 
-					</ul>
-				</div>
+							</ul>
+						</div>
 
 
-			</header>
-		</div>	
-		
+					</header>
+				</div>	
+			</div>
 		
 		<!-- Footer -->
 			<footer id="footer">

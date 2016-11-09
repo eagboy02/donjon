@@ -19,45 +19,53 @@
 			
 			<header id="header">
 
-			<nav class="sidemenu">
-				<a href="gallery.html">characters</a><br><br>
-				<a href="buildings.html">Buildings</a><br><br>
-				<a href="traps.html">Traps</a><br><br>
-				<a href="alter_tiles.html">Alters</a><br><br><br><br>
-				<a href="main_menu.html">Main Menu</a><br><br>
-			</nav>
+			<div id="mySidenav" class="sidenav">
+					  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					  <a href="gallery.html">Characters</a>
+					  <a href="buildings.html">Buildings</a>
+					  <a href="traps.html">Traps</a>
+					  <a href="alter_tiles.html">Alters</a>
+					  <a href="main_menu.html">Main Menu</a>
+					</div>
+
+
+					<!-- Use any element to open the sidenav -->
+					<span onclick="openNav()">open</span>
+
+					<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+					<div id="main">
 			
-				<div class="content" id="alter_buildings">
-				<h1><a href="#">Buildings</a></h1>
+							<div class="content" id="alter_buildings">
+							<h1><a href="#">Buildings</a></h1>
 
-						<a class="lightbox" href="5.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/building1-01.png" height="225" width="225">
-						</a>
-						<a class="lightbox" href="6.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/building2-01.png" height="225" width="225">
-						</a>
-						<a class="lightbox" href="7.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/building3-01.png" height="225" width="225">
-						</a>
-						<a class="lightbox" href="8.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/building4-01.png" height="225" width="225">
-						</a>
-						<a class="lightbox" href="5.jpg"
-						   data-littlelightbox-group="gallery">
-						   <img src="images/building5-01.png" height="225" width="225">
-						</a>
-					
-				</div>
+									<a class="lightbox" href="5.jpg"
+									   data-littlelightbox-group="gallery">
+									   <img src="images/building1-01.png" height="225" width="225">
+									</a>
+									<a class="lightbox" href="6.jpg"
+									   data-littlelightbox-group="gallery">
+									   <img src="images/building2-01.png" height="225" width="225">
+									</a>
+									<a class="lightbox" href="7.jpg"
+									   data-littlelightbox-group="gallery">
+									   <img src="images/building3-01.png" height="225" width="225">
+									</a>
+									<a class="lightbox" href="8.jpg"
+									   data-littlelightbox-group="gallery">
+									   <img src="images/building4-01.png" height="225" width="225">
+									</a>
+									<a class="lightbox" href="5.jpg"
+									   data-littlelightbox-group="gallery">
+									   <img src="images/building5-01.png" height="225" width="225">
+									</a>
+								
+							</div>
 
 
-			</header>
-		</div>	
+						</header>
+					</div>	
 		
-		
+			</div>
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
