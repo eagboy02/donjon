@@ -104,6 +104,13 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
 }
 
+// __________________________________________________________________
+//image scroller
+(function slide(){
+  $('#clientsSlider').animate({backgroundPosition : '+=2px'}, 40, 'linear', slide);
+})();
+
+
 
 
 
