@@ -166,10 +166,16 @@ function closeNav() {
 })();
 
 //-------------------
-//api
+//array name gen.
 //--------------------
 
-        
+function GetValue()
+{
+    var myarray= new Array("King","Emperor","Barbarian","Queen","Dark King","Dark Wizard","King of the Dam","Wicked Queen");
+    var random = myarray[Math.floor(Math.random() * myarray.length)];
+    //alert(random);
+    document.getElementById("message").innerHTML=random;
+}        
 
 
 

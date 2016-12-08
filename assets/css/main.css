@@ -1631,15 +1631,23 @@
 
 }
 
-#clock{
-	background-color:white;
+#nameArray{
 	width:25em;
-	height:70px;
+	height:100px;
 	position:absolute;
-	left:36%;
 	top:140px;
 	z-index:1;
-	border:solid 10px black;
+	text-align: center;
+	
+
+}
+#message{
+	color:white;
+	background-color:black;
+	padding-left:20px;
+	border:solid 5px white;
+	border-radius: 10px;
+
 
 }
 
@@ -1734,7 +1742,7 @@ img{
 		width:1200px;
 }
 #alter_score{
-	margin-top:30px;
+	margin-top:60px;
 	padding-top: 5px;
 	max-width: 100%;
     min-width: 100px;
