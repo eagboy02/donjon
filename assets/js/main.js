@@ -63,7 +63,60 @@
 
 	});
 
+
+
 })(jQuery);
+
+//------------------------
+//local storage player 1
+//------------------------
+if (localStorage.getItem("score")) {
+            $("#qty").val(localStorage.getItem("score"));
+    }
+
+    $("#qty").change(function() {
+     localStorage.setItem("score", $(this).val());
+    });
+
+  //name
+
+    if (localStorage.getItem("name1")) {
+            $("#player1").val(localStorage.getItem("name1"));
+   }
+
+    $("#player1").change(function() {
+     localStorage.setItem("name1", $(this).val());
+    });
+
+
+
+
+//-----------------------
+//local storage player 2
+//----------------------
+
+
+ if (localStorage.getItem("score2")) {
+            $("#qty2").val(localStorage.getItem("score2"));
+    }
+
+    $("#qty2").change(function() {
+     localStorage.setItem("score2", $(this).val());
+    });
+
+//name
+
+  if (localStorage.getItem("name2")) {
+            $("#player2").val(localStorage.getItem("name2"));
+    }
+
+    $("#player2").change(function() {
+     localStorage.setItem("name2", $(this).val());
+    });
+
+//--------------------
+//Scoreboard js
+//----------------------
 
 function modify_qty(val) {
     var qty = document.getElementById('qty').value;
@@ -89,9 +142,10 @@ function modify_qty2(val) {
     return new_qty2;
 }
 
-// _____________________________________________________________________
-// slide menu
 
+// --------------
+// slide menu
+//------------------
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -104,11 +158,20 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
 }
 
-// __________________________________________________________________
+//---------------
 //image scroller
+//-----------------
 (function slide(){
   $('#clientsSlider').animate({backgroundPosition : '+=2px'}, 40, 'linear', slide);
 })();
+
+//-------------------
+//api
+//--------------------
+
+        
+
+
 
 
 

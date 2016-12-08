@@ -1631,7 +1631,23 @@
 
 }
 
+#clock{
+	background-color:white;
+	width:25em;
+	height:70px;
+	position:absolute;
+	left:36%;
+	top:140px;
+	z-index:1;
+	border:solid 10px black;
 
+}
+
+form{
+background-color:white;
+width:400px;
+height:40px;
+}
 
 
 #logo{
@@ -1863,6 +1879,7 @@ button:hover, button:active, button:focus {
     text-align: center;
     font-size:20px;
     z-index:0;
+
 
 
 
